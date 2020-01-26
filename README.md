@@ -7,11 +7,11 @@ Copy it and return to colab page, to paste it into thouse field with link<br>
 If you see printed "Authenticated" you can continue<br>
 In the next chapter you'll see something like this:<br>
 <code>
-      %%bigquery --project project_id df
+      %%bigquery --project project_id df <br>
       SELECT
         *
       FROM `bigquery-public-data.iowa_liquor_sales.sales`
-</code>
+</code><br>
 Please replace "project_id" with your Project ID from your GCP console (https://console.cloud.google.com/)<br>
 
 Now you can continue, to executing the file<br>
